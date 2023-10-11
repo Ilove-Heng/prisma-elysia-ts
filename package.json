@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.44",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cookie": "^0.5.2",
+    "@elysiajs/cors": "^0.5.2",
+    "@elysiajs/jwt": "^0.5.3",
+    "@elysiajs/swagger": "^0.5.2",
+    "@prisma/client": "5.0.0",
+    "bcryptjs": "^2.4.3",
+    "elysia": "latest",
+    "jsonwebtoken": "8.5.1",
+    "tarantool-driver": "^3.0.6"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^5.0.0"
+  },
+  "module": "src/index.js"
+}
